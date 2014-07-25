@@ -2,22 +2,13 @@
 # --------------------------------------------------------------------------
 
 # 1. Write a method to swap two variables. 
-  def method(a, b)
-  puts "Before swapping"
-  puts "a=#{a} and b=#{b}"
-  a,b = b,a
-  puts "After swapping"
-  puts "a#{a} and b#{b}"
-end
+    def method(a,b)
+    a,b = b,a
+    end
 method(2,4)
 
 #output:
-#Before swapping
-#a=4 and b=8
-#After swapping
-#a=8 and b=4
-# end
-
+#=> [4, 2]
 
 
 # 2. Write any one use case of === operator.
